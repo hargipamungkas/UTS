@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website SMP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">SMP Negeri </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#profil">Profil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div id="beranda" class="container mt-5">
+    <h1>Selamat Datang di SMP Negeri cirebon</h1>
+    <p>Website resmi untuk memberikan informasi tentang sekolah kami.</p>
+</div>
+
+<div id="profil" class="container mt-5">
+    <h2>Tentang Kami</h2>
+    <p>SMP Negeri cirebon adalah sekolah yang berkomitmen untuk memberikan pendidikan berkualitas dan membentuk karakter siswa. website ini menjadi salah satu sarana informasi dan publikasi terkait kemajuan dan pencapaian SMP Negeri cirebon. Kami menyadari website sekolah SMP Negeri cirebon ini masih belum sempurna. oleh karena itu, kami akan terus berusaha mengembangkan konten dan kualitas tampilan website sekolah ini agar semakin berkembang.</p>
+</div>
+
+<div id="layanan" class="container mt-5">
+    <h2>Layanan Kami</h2>
+    <ul>
+        <li>Penerimaan Peserta Didik Baru (PPDB)</li>
+        <li>Kegiatan Ekstrakurikuler</li>
+        <li>Program Pembelajaran Jarak Jauh (e-Learning)</li>
+    </ul>
+</div>
+
+<div id="galeri" class="container mt-5">
+    <h2>Galeri Kegiatan</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="img/eks.jpeg" alt="Gambar 1" class="img-fluid mb-3">
+        </div>
+        <div class="col-md-4">
+            <img src="img/images.jpeg" alt="Gambar 2" class="img-fluid mb-3">
+        </div>
+        <div class="col-md-4">
+            <img src="img/cok.jpeg" alt="Gambar 3" class="img-fluid mb-3">
+        </div>
+    </div>
+</div>
+
+<div id="kontak" class="container mt-5 mb-5">
+    <h2>Kontak Kami</h2>
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Nama:</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Pesan:</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+    </form>
+</div>
+
+<footer class="text-center mt-5 py-4 bg-light">
+    &copy; 2024 SMP Negeri. Semua Hak Dilindungi.
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
